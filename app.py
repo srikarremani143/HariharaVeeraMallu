@@ -136,8 +136,8 @@ def get_base64_image(image_path):
 # Load data
 @st.cache_data
 def load_data():
-    city_data = pd.read_csv("city_summary_2025-07-21.csv")
-    theater_data = pd.read_csv("theatre_shows_2025-07-21 (1).csv")
+    city_data = pd.read_csv("city_summary_2025-07-21_730.csv")
+    theater_data = pd.read_csv("theatre_shows_2025-07-21 _730.csv")
     return city_data, theater_data
 
 city_data, theater_data = load_data()
