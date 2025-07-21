@@ -160,24 +160,23 @@ st.markdown("""
         color: #fff !important;
         font-weight: bold !important;
     }
-    .stMetric label, .stMetric span {
-        color: #fff !important;
-        font-weight: bold !important;
-    }
-    /* Make metric values and labels larger and brighter */
+    /* Make metric values and labels thick red */
     div[data-testid="stMetric"] {
-        color: #fff !important;
+        color: #ff4b4b !important;
         font-weight: bold !important;
+        border-radius: 10px;
+        padding: 10px 0;
     }
     div[data-testid="stMetric"] > label, div[data-testid="stMetric"] > div {
-        color: #fff !important;
+        color: #ff4b4b !important;
         font-weight: bold !important;
         font-size: 1.3rem !important;
     }
     div[data-testid="stMetricValue"] {
-        color: #fff !important;
+        color: #ff4b4b !important;
         font-weight: bold !important;
         font-size: 2.5rem !important;
+        text-shadow: 1px 1px 2px #000;
     }
     </style>
 """, unsafe_allow_html=True)
